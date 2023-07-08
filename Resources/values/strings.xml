@@ -1,0 +1,23 @@
+<resources>
+  
+    <string name="app_name">AnfiteatroApp</string>
+    <string name="action_settings">Settings</string>
+
+  <!--SPLASH SCRIM-->
+  <string name="Bienvenido">AnfiteatroApp</string>
+  <string name="Company">UNAN-MANAGUA</string>
+
+
+  <!--Login-->
+  <string name="Login">Usuario</string>
+  <string name="Iniciar">Iniciar Sesion</string>
+
+  <string name="contraseña">Contraseña</string>
+
+  <string name="iniciarsesion1">Iniciar Sesion</string>
+
+  <string name="NuevoRegis">Nuevo Registro</string>
+
+  <string name="EresS">Registrarse</string>
+  
+</resources>

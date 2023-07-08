@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#BDC8CA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/unanflags"
+            android:id="@+id/linearLayout5" />
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@android:color/white"
+        android:id="@+id/linearLayoutp" >
+        <ScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView1" >
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout6" >
+                <TextView
+        android:text="@string/Iniciar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="40dp"
+        android:textAlignment="center"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:paddingHorizontal="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/userimagen"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:id="@+id/imageViewIconUser" />
+            <EditText
+                android:inputType="textEmailAddress"
+                android:hint="@string/Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextUser" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:paddingHorizontal="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/passimagen"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:id="@+id/imageViewIconPass" />
+             <EditText
+                android:inputType="textPassword"
+                android:hint="@string/contraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPass" />
+        </LinearLayout>
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1" >
+            <Button
+    android:id="@+id/buttonLogin"
+    android:layout_width="200dp"
+    android:layout_height="35dp"
+    android:layout_marginVertical="20dp"
+    android:layout_centerHorizontal="true"
+    android:text="@string/iniciarsesion1"
+    android:textColor="@android:color/white"
+    android:background="@drawable/customcircle"
+    android:backgroundTint="@android:color/black" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout2" >
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textViewSpace" />
+            <TextView
+                android:text="@string/EresS"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/textViewSpace"
+                android:textAlignment="center"
+                android:id="@+id/textView5" />     
+            <TextView
+                android:text="@string/NuevoRegis"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_toRightOf="@id/textViewSpace"
+                android:textAlignment="center"
+                android:id="@+id/textViewreg" />
+        </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        
+        
+        
+    </LinearLayout>
+</RelativeLayout>

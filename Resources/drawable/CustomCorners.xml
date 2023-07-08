@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  //esto meterlo en la carpeta drawable
+  <solid
+      android:color="#F1F1F1"/>
+  <corners
+      android:radius="20dp" />
+
+</shape>
